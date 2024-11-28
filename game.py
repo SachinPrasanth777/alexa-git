@@ -47,7 +47,7 @@ def play_background_music():
     """Play the background music from the assets folder with low volume."""
     if os.path.exists(MUSIC_FILE):
         pygame.mixer.music.load(MUSIC_FILE)
-        pygame.mixer.music.set_volume(0.05)  # Set the music volume to a low level for background effect
+        pygame.mixer.music.set_volume(0.4)  # Set the music volume to a low level for background effect
         pygame.mixer.music.play(-1)  # Loop the music indefinitely
     else:
         print("Background music file not found. Continuing without music.")
