@@ -1,7 +1,7 @@
 op=input("ENTER THE OPERATOR :")
 a=float(input("ENTER THE 1ST DIGIT : "))
 b=float(input("ENTER THE 2ND DIGIT : "))
-if op in ("+","-","","/","%","//","*"):
+if op in ("+","-","*","/","%","//","**"):
     match op:
         case "+":
             print("THE ADDITION OF",a ,"AND",b, "IS :",a+b)
